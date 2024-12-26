@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if the `initializeApp` function is called multiple times with different configurations. This can lead to unexpected behavior and prevent your application from functioning correctly.  Ensure you only call `initializeApp` once, preferably at the beginning of your application's lifecycle.
